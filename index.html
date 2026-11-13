@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My To Do List</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="manifest" href="./manifest.json">
+    <meta name="theme-color" content="#7A3F56">
+</head>
+<body>
+
+
+    <div class="card">
+        <h1 class="my"><em> My To Do List</em></h1>
+
+        <div class="tasks">
+            <div class="groupp">
+                <input class="butt" type="text" placeholder="Enter your Task" id="inputTask">
+                <button  id="btn" onclick="addTask()">Add</button>
+            </div>
+            <ol id="todolist"></ol>
+        </div>
+
+        <p id="progressText">0% Completed</p>
+        <div class="progress-bar">
+            <div id="progressFill"></div>
+        </div>
+
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+    <script src="main.js"></script>
+</body>
+</html>
