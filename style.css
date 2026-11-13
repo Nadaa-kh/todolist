@@ -8,10 +8,12 @@ body{
 }
 
 .card{
-    width: 550px;
+    width: 90%;
+    max-width: 550px;
+    box-sizing: border-box;
     border: 3px rgb(61, 31, 61) solid;
-    border-radius: 10px;
-    margin: 100px auto;
+    border-radius: 18px;
+    margin: 60px auto;
     padding: 25px;
     background-color: white;
 }
@@ -115,3 +117,35 @@ body{
 }
 
 
+
+@media (max-width: 768px) {
+
+    .card {
+        width: 94%;
+        margin: 25px auto;
+        padding: 15px;
+    }
+
+    .tasks {
+        padding: 20px 5px;
+    }
+
+    .groupp {
+        gap: 10px;
+        flex-wrap: wrap;
+    }
+
+    .butt {
+        min-width: 0;
+        width: 100%;
+    }
+
+    #btn {
+        padding: 10px 14px;
+    }
+
+    #todolist li span {
+        font-size: 15px;
+        overflow-wrap: anywhere;
+    }
+}
